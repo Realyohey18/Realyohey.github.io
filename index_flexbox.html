@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./reset.css">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@515&display=swap" rel="stylesheet">
+    <title>FLEX BOXについて</title>
+    
+</head>
+<body>
+    <header>
+        <div class="header-left">
+            <h2>How To Use Flex Box</h2>
+        </div>
+    </header>
+    <main>
+        <div class="description">
+            <section class="brother parent">
+                <div class="heading">親の指定の仕方</div>
+                <div class="contents">
+                    <ul>
+                        <li>display:flex;</li>
+                        <li>flex-wrap 
+                            <ul>
+                                <li>nowrap</li>
+                                <li>wrap</li>
+                                <li>wrap-reverse</li>
+                            </ul>
+                        </li>
+                        <li>flex-direction
+                            <ul>
+                                <li>row(ディフォルト)</li>
+                                <li>column</li>
+                                <li>column-reverse</li>
+                            </ul>
+                        </li>
+                        <li>flex-flow
+                            <ul>
+                                <li>flex-wrapとflex-directionを１文章でまとめたもの</li>
+                            </ul>
+                        </li>
+                        <li>justify-content
+                            <ul>
+                                <li></li>
+                            </ul>
+                        </li>
+                        <li>align-items
+                            <ul>
+                                <li>strech</li>
+                                <li>flex-start</li>
+                                <li>flex-end</li>
+                                <li>center</li>
+                                <li>baseline</li>
+                            </ul>
+                        </li>
+                        <li>align-content</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="brother children">
+                <div class="heading">子の指定の仕方</div>
+                <div class="contents">
+                <ul>
+                    <li>display:flex;</li>
+                    <li>flex-wrap
+                        <ul>
+                            <li>nowrap</li>
+                            <li>wrap</li>
+                            <li>wrap-reverse</li>
+                        </ul>
+                    </li>
+                    <li>flex-direction
+                        <ul>
+                            <li>row(ディフォルト)</li>
+                            <li>column</li>
+                            <li>column-reverse</li>
+                        </ul>
+                    </li>
+                    <li>flex-flow
+                        <ul>
+                            <li>flex-wrapとflex-directionを１文章でまとめたもの</li>
+                        </ul>
+                    </li>
+                    <li>justify-content
+                        <ul>
+                            <li></li>
+                        </ul>
+                    </li>
+                    <li>align-items
+                        <ul>
+                            <li>strech</li>
+                            <li>flex-start</li>
+                            <li>flex-end</li>
+                            <li>center</li>
+                            <li>baseline</li>
+                        </ul>
+                    </li>
+                    <li>align-content</li>
+                </ul>
+                </div>
+            </section>
+        　</div> 
+           <!-- flexboxの使い方、実践編-->
+           <!-- 親要素の指定 -->
+        <div class="demo">   
+         <h3 class="title">Control Parent Tag</h3>
+         <div class="demonstrate">
+           <div class="oya container3">
+             <h3>3.how to use<br>&nbsp;&nbsp;&nbsp;display -> flex</h3>
+             <div class="container con3">
+                <div class="item item1">1</div>
+                <div class="item item2">2</div>
+                <div class="item item3">3</div>
+                <div class="item item4">4</div>
+             </div>
+            </div>
+            <div class="oya container4">
+                <h3>4.how to use<br>&nbsp;&nbsp; display -> flex<br>&nbsp;&nbsp;&nbsp;flex-direction -> coulumn</h3>
+                <div class="container con4">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+            <div class="oya container5">
+                <h3>5.how to use<br>&nbsp;&nbsp; display -> flex<br>&nbsp;&nbsp;&nbsp;flex-direction->column-reverse</h3>
+                <div class="container con5">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+            <div class="oya container6 ">
+                <h3>6.how to use<br>&nbsp;&nbsp; display -> flex<br>&nbsp;&nbsp;&nbsp;flex-wrap->nowrap</h3>
+                <div class="container con6">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                    <div class="item item7">7</div>
+                    <div class="item item8">8</div>
+                    <div class="item item7">9</div>
+                    <div class="item item8">10</div>
+                </div>
+            </div>
+            <div class="oya container7">
+                <h3>7.how to use<br>&nbsp;&nbsp; display -> flex<br>&nbsp;&nbsp;&nbsp;align-items->flext-start</h3>
+                <div class="container con7">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    
+                </div>
+            </div>
+            <div class="oya container8">
+                <h3>8.how to use<br>&nbsp;&nbsp; display -> flex<br>&nbsp;&nbsp;&nbsp;align-content->flext-end</h3>
+                <div class="container con8">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                    <div class="item item5">5</div>
+                    <div class="item item6">6</div>
+                    <div class="item item7">7</div>
+                    <div class="item item8">8</div>
+                    <div class="item item7">9</div>
+                    <div class="item item8">10</div>
+                </div>
+            </div>
+            <div class="oya container9">
+                <h3>9.how to use parent</h3>
+                <div class="container con9">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+            <div class="oya container10">
+                <h3>10.how to use parent</h3>
+                <div class="container con10">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+            <div class="oya container11">
+                <h3>11.how to use parent</h3>
+                <div class="container con11">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+            <div class="oya container12">
+                <h3>12.how to use parent</h3>
+                <div class="container con12">
+                    <div class="item item1">1</div>
+                    <div class="item item2">2</div>
+                    <div class="item item3">3</div>
+                    <div class="item item4">4</div>
+                </div>
+            </div>
+          </div>
+        </div>
+        <!-- 子要素の指定 -->
+        <div class="demo2">
+            <h3 class="title">Control Children Tag</h3>
+            <div class="demonstrate">
+                <div class="oya container13">
+                    <h3>13.How to use<br>&nbsp;&nbsp;&nbsp;order</h3>
+                    <p>子要素にorderを指定し子の順番を変えることができる。<br>初期値は"０"</p>
+                    <div class="container con13">
+                        <div class="item item1" style="order:0;">1</div>
+                        <div class="item item2" style="order:-1;">2</div>
+                        <div class="item item3" style="order:3;">3</div>
+                        <div class="item item4" style="order:2;">4</div>
+                    </div>
+                </div>
+                <div class="oya container14">
+                    <h3>14.how to use<br>&nbsp;&nbsp;flex-grow</h3>
+                    <p>親要素に空白があった場合、子要素の比率を操作して要素いっぱいに広げることができる。<br>"0"を指定した場合、子要素の指定している大きさが適用される。</p>
+                    <br>flex-directionがrowならwidthを、columならheightの調整が可能となる。
+                    <div class="container con14">
+                        <div class="item item1" style="flex-grow: 1;">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+                    </div>
+                </div>
+                <div class="oya container15">
+                    <h3>15.how to use<br>&nbsp;&nbsp;flex-shrink</h3>
+                    <p>親要素の大きさが子要素よりも小さかった場合、子要素の比率を操作して要素を調整することができる。<br>"0"を指定した場合、子要素の指定している大きさが適用される。</p>
+                    <br>flex-directionがrowならwidthを、columならheightの調整が可能となる。
+                    <div class="container con15">
+                        <div class="item item1" style="flex-shrink: 2;">1</div>
+                        <div class="item item2" style="flex-shrink: 2;">2</div>
+                        <div class="item item3" style="flex-shrink: 2;">3</div>
+                        <div class="item item4">4</div>
+                        <div class="item item5">5</div>
+                        <div class="item item6">6</div>
+                        <div class="item item7">7</div>
+                        <div class="item item8">8</div>
+                    </div>
+                </div>
+                <div class="oya container16 ">
+                    <h3>16.how to use<br>&nbsp;&nbsp;flex-basis</h3>
+                    <p>子要素のwidthをしていすると思えれば十分。widthよりも」flex-basisで指定された方が優先される
+                    <br>3番目の子要素、widthでは100px,flex-basisを使い、200pxに変更。    
+                    </p>
+                    <div class="container con16">
+                        <div class="item item1">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+                        <div class="item item5">5</div>
+                        <div class="item item6">6</div>
+                        <div class="item item7">7</div>
+                        <div class="item item8">8</div>
+                        <div class="item item7">9</div>
+                        <div class="item item8">10</div>
+                    </div>
+                </div>
+                <div class="oya container17">
+                    <h3>17.How to use<br>&nbsp;&nbsp;align-self</h3>
+                    <p>親要素で指定したalign-itemsと同じ役割を果たす。　子要素のalign-selfの方が優先される
+                      複雑でややこしいが親要素のheightが決まっておらずalign-items：strech；を指定した場合は親要素一杯に子要素が広がる。
+                      その中でこの場合、３番目の子要素に対してalign-self：center；をしようし下記のような状態となる。  
+                    </p>
+                    <div class="container con17">
+                        <div class="item item1">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+        
+                    </div>
+                </div>
+                <div class="oya container18">
+                    <h3>18.How to use<br>&nbsp;&nbsp; flex</h3>
+                    <p>子要素　flexの一文で"flex-grow","flex-shrink","flex-basis"をまとめてしていすることができる</p>
+                    <div class="container con18">
+                        <div class="item item1">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+                        <div class="item item5">5</div>
+                        <div class="item item6">6</div>
+                        <div class="item item7">7</div>
+                        <div class="item item8">8</div>
+                        <div class="item item7">9</div>
+                        <div class="item item8">10</div>
+                    </div>
+                </div>
+                <div class="oya container19">
+                    <h3>19.How to make header menu</h3>
+                    <div class="container con19">
+                        <div class="heading">LOGO</div>
+                        <nav class="heading-menu">
+                            <ul>
+                                <li><a href="">menu</a></li>
+                                <li><a href="">about us</a></li>
+                                <li><a href="">contact</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+                <div class="oya container20">
+                    <h3>20.How to make sentence</h3>
+                    <section class="con20">
+                       <div class="example">
+                            <div class="imgs">
+                                <img src="./imgs/evaPhoto.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>sample sentense sample sentense sample sentense sample sentense sample sentense</p>
+                            </div>
+                        </div>    
+                        <div class="example">
+                            <div class="imgs">
+                                <img src="./imgs/evaPhoto.png" alt="">
+                            </div>
+                            <div class="desc">
+                                <p>sample sentense sample sentense sample sentense sample sentense sample sentense</p>
+                            </div>
+                         </div>   
+                        <div class="example">
+                                <div class="imgs">
+                                    <img src="./imgs/evaPhoto.png" alt="">
+                                </div>
+                                <div class="desc">
+                                    <p>sample sentense sample sentense sample sentense sample sentense sample sentense</p>
+                                </div>
+                         </div>                 
+                    </section>
+                </div>
+                <div class="oya container21">
+                    <h3>21.How to use parent</h3>
+                    <div class="container con21">
+                        <div class="item item1">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+                    </div>
+                </div>
+                <div class="oya container22">
+                    <h3>22.How to use parent</h3>
+                    <div class="container con22">
+                        <div class="item item1">1</div>
+                        <div class="item item2">2</div>
+                        <div class="item item3">3</div>
+                        <div class="item item4">4</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
